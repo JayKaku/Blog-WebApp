@@ -1,0 +1,69 @@
+.page {
+  background-image: url(./mac.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.page p {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  font-size: 10vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.polaroid {
+  width: 27%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.responsive img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 40vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .polaroid {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .polaroid {
+    width: 100%;
+  }
+}
