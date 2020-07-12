@@ -1,12 +1,12 @@
 # Blog Frontend
 
-A Blogging page forntend mad as a task for M.A.D. Club TSEC to get a better understanding of ReactJs
+A blog page frontend made as a task for M.A.D. Club TSEC to get a better understanding of ReactJs
 
 ## Features
 
 - Landing Page
 - Category Page to choose from
-- Blog Page where you could let your idea flow, create blog and delete them too by simply clicking on it
+- Blog Page where you could let your ideas flow, create blog and delete them too by simply clicking on them
 
 ## Images
 
